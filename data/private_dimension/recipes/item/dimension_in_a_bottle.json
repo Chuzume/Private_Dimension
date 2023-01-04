@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "#D#",
+        "#L#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "L": {
+            "item": "minecraft:lodestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:chest",
+        "count": 1
+    }
+}

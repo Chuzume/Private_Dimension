@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "private_dimension:item/dimension_in_a_bottle"
+        }
+      }
+    },
+    "rewards": {
+      "function": "private_dimension:item/dimension_in_a_bottle/craft"
+    }
+  }
