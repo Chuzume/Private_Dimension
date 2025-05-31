@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "private_dimension:item/dimension_in_a_bottle"
+    ]
+  }
+}
