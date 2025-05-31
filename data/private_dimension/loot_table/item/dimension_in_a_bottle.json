@@ -8,8 +8,56 @@
           "name": "minecraft:lingering_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dimension in a Bottle\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"使用すると、別世界の空間へと移動する。\",\"color\":\"white\",\"italic\":false}','{\"text\":\"その世界で再び使用すると、元の世界へと戻る。\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"\\\\\"この小さな丸い瓶の中には、\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" どういうわけか別の世界が詰まっている\\\\\"\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,ChuzData:{ItemID:Dimension_in_a_Bottle},CustomPotionEffects:[{Id:25,Amplifier:127b,Duration:10,ShowParticles:0b}],CustomPotionColor:4256511}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Dimension in a Bottle",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "使用すると、別世界の空間へと移動する。",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "その世界で再び使用すると、元の世界へと戻る。",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\"この小さな丸い瓶の中には、",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " どういうわけか別の世界が詰まっている\"",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "ChuzData": {
+                    "ItemID": "Dimension_in_a_Bottle"
+                  }
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 4256511
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": true
+              }
             }
           ]
         }
