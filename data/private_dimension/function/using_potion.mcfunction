@@ -4,5 +4,5 @@
 #
 # @within advancement private_dimension:using_check/potion
 
-tag @s add PrivateDim.Using.Potion
-advancement revoke @s only private_dimension:using_check/potion
+#tag @s add PrivateDim.Using.Potion
+#advancement revoke @s only private_dimension:using_check/potion
