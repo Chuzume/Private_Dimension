@@ -14,7 +14,7 @@
   execute at @e[tag=PrivateDim.BackMarker] run function private_dimension:entity/backmarker
 
 # アイテム保護
-  execute as @e[type=item,nbt={Item:{tag:{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}] at @s run function private_dimension:entity/protected_item
+  execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{ChuzData:{ItemID:Dimension_in_a_Bottle}}}}}] at @s run function private_dimension:entity/protected_item
 
 # ボーダー
   execute as @e[tag=PrivateDim.PlotBorder] at @s run function private_dimension:entity/plotborder/tick
