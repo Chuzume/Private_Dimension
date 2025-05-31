@@ -5,7 +5,7 @@
 # @within function private_dimension:event/throw_linger_potion/main
 
 # エンティティとしてのポーションは不要なのでキル
-  kill @e[type=potion,sort=nearest,limit=1]
+  kill @e[type=lingering_potion,sort=nearest,limit=1]
 
 # 投げた音を止める
   stopsound @s neutral minecraft:entity.lingering_potion.throw
