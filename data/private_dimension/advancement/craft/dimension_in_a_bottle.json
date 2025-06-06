@@ -1,13 +1,13 @@
 {
-  "criteria": {
-    "craft": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "private_dimension:item/dimension_in_a_bottle"
-      }
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "private_dimension:item/dimension_in_a_bottle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "private_dimension:item/dimension_in_a_bottle/craft"
     }
-  },
-  "rewards": {
-    "function": "private_dimension:item/dimension_in_a_bottle/craft"
-  }
 }

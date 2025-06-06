@@ -1,13 +1,13 @@
 {
-  "type": "private_dimension:private_area",
-  "generator": {
-    "type": "minecraft:flat",
-    "settings": {
-      "biome": "minecraft:the_void",
-      "lakes": false,
-      "features": false,
-      "layers": [],
-      "structure_overrides": []
+    "type": "private_dimension:private_area",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:the_void",
+            "lakes": false,
+            "features": false,
+            "layers": [],
+            "structure_overrides": []
+        }
     }
-  }
 }
