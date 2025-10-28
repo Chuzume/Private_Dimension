@@ -1,67 +1,45 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#E#",
-        "#D#",
-        "#L#"
-    ],
-    "key": {
-        "#": "minecraft:glass",
-        "E": "minecraft:ender_eye",
-        "D": "minecraft:diamond",
-        "L": "minecraft:lodestone"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "#D#",
+    "#L#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
     },
-    "result": {
-        "id": "minecraft:lingering_potion",
-        "components": {
-            "minecraft:custom_name": {
-                "text": "Dimension in a Bottle",
-                "color": "aqua",
-                "italic": false
-            },
-            "minecraft:lore": [
-                {
-                    "text": ""
-                },
-                {
-                    "text": "使用すると、別世界の空間へと移動する。",
-                    "color": "white",
-                    "italic": false
-                },
-                {
-                    "text": "その世界で再び使用すると、元の世界へと戻る。",
-                    "color": "white",
-                    "italic": false
-                },
-                {
-                    "text": ""
-                },
-                {
-                    "text": "\"この小さな丸い瓶の中には、",
-                    "color": "gray",
-                    "italic": false
-                },
-                {
-                    "text": " どういうわけか別の世界が詰まっている\"",
-                    "color": "gray",
-                    "italic": false
-                }
-            ],
-            "minecraft:custom_data": {
-                "ChuzData": {
-                    "ItemID": "Dimension_in_a_Bottle"
-                }
-            },
-            "minecraft:potion_contents": {
-                "custom_color": 4256511
-            },
-            "minecraft:tooltip_display": {
-                "hidden_components": [
-                    "minecraft:potion_contents"
-                ]
-            },
-            "minecraft:enchantment_glint_override": true
-        },
-        "count": 1
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:lodestone"
     }
+  },
+  "result": {
+    "id": "minecraft:lingering_potion",
+    "components": {
+      "minecraft:item_name": "\"次元入りの瓶\"",
+      "minecraft:lore": [
+        "{   \"text\": \"使用すると、瓶の中の空間へと移動する\",   \"type\": \"text\",   \"color\": \"gray\",   \"italic\": false  }",
+        "{   \"text\": \"瓶の中で再び使用すると、元の世界へと戻る\",   \"type\": \"text\",   \"color\": \"gray\",   \"italic\": false  }",
+        "\"\"",
+        "{   \"text\": \"ガラス越しに覗き込むと、君だけの世界が広がっている\",   \"type\": \"text\",   \"color\": \"dark_gray\",   \"italic\": false  }"
+      ],
+      "minecraft:custom_data": {
+        "ChuzData": {
+          "ItemID": "Dimension_in_a_Bottle"
+        }
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 4256511
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:hide_additional_tooltip": {}
+    },
+    "count": 1
+  }
 }
